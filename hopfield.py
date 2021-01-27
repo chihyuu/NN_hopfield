@@ -30,7 +30,6 @@ class HOP(object):
         # self.W = self.W - (((self.N-1) / self.N) * np.eye((self.N), dtype = 'int'))
         # print ('Hopfield Training Complete.')
 
-
     def hopRun(self, inputList):    # Run HOP to output
         inputArray = np.array(inputList, dtype = np.float32)    # Preprocess List to Array type
         # Run
